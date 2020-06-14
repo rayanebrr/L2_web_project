@@ -1,0 +1,173 @@
+.citation{
+  width: 100%;
+  min-height: 100%;
+  padding-top: 100px;
+  background-color: #1a1b25;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.citation-card{
+  display: table;
+  border-radius: 25px;
+  margin: 5px;
+  border: 3px double rgb(255, 255, 255);
+  max-width: 350px;
+  height: 150px;
+  max-height: 300px;
+  transition-duration: 0.4s;
+}
+
+.citation-card:hover{
+  background: rgb(101, 87, 87);
+}
+
+.h1-citation{
+  padding: 5px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+.img-citation{
+  display: inline-block;
+  width:30px;
+  height: 30px;
+}
+
+.h2-citation{
+  font-size: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  padding: 20px;
+}
+
+.h2-citation::after,.h2-citation::before {
+  content: " \" ";
+  font-size: 25px;
+}
+
+
+.h2-add{
+  color: white;
+  font-size: 20px;
+}
+
+
+.button-fb{
+  background-color: white;
+  color: black;
+  border: 5px solid #3b5998; 
+  margin: 10px;
+  padding: 10px;
+  border-radius: 9px;
+  width: 250px;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+
+.button-fb:hover {
+  background-color: #3b5998; 
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+.button-tw {
+  background-color: white;
+  color: black;
+  border: 5px solid #00acee; 
+  margin: 10px;
+  padding: 10px;
+  border-radius: 9px;
+  width: 250px;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+
+.button-tw:hover {
+  background-color: #00acee; 
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+.button-yt{
+  background-color: white;
+  color: black;
+  border: 5px solid #c4302b; 
+  margin: 10px;
+  padding: 10px;
+  border-radius: 9px;
+  width: 250px;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+
+.button-yt:hover {
+  background-color: #c4302b; 
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+.button-marque {
+  background-color: white;
+  color: black;
+  border: 5px solid #090808; 
+  margin: 10px;
+  padding: 10px;
+  border-radius: 9px;
+  width: 250px;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+
+.button-marque:hover {
+  background-color: #090808; 
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+.button-insta {
+  background-color: white;
+  color: black;
+  border: 5px solid #E1306C; 
+  margin: 10px;
+  padding: 10px;
+  border-radius: 9px;
+  width: 250px;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+
+.button-insta:hover {
+  background-color: #E1306C; 
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 6px solid rgb(189, 21, 21);
+}

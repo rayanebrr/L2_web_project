@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Biographie - Manyprime</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/icon/icon-site.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/logo.css">
+  <link rel="stylesheet" href="css/biographie.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <meta name="description" content="Prime le youtubeur">
+  <meta name="author" content="Rayane et amine">
+
+</head>
+<body>
+  <nav>
+    <a href="index.html"><img id="icon-nav" src="img/icon/logo.png" alt=""></a>
+    <ul id="nav-item">
+        <li><a href="biographie.html">Qui est-il?</a></li>
+        <li><a href="video-gallery.html">Streaming</a></li>
+        <li><a href="citation.html">Citations</a></li>
+        <li><a href="marque.html">La marque</a></li>
+        <li> <a href="liens.html">Liens</a></li>
+        <li> <a href="aboutus.html">Qui sommes-nous ?</a></li>
+      </ul>
+  </nav>
+  <div class="biographie">
+    <div class="bio-content">
+      <img class="bio-img" src="img/index/bio-image.jpg" alt="">
+      <h1>PRIME</h1>
+      <br>
+      <br>
+      <h1>Biographie</h1>
+      <p>Amine Mekri, plus connu sous le pseudonyme Prime, anciennement PrimeTimeFUT, né le 24 septembre 1992 à Paris, est un vidéaste et rappeur français d'origine algérienne. Ancien joueur de football américain, il est actif sur la plateforme YouTube depuis la fin de l'année 2012, il s'oriente d'abord vers les jeux vidéo, avant de se tourner vers d'autres thèmes comme les vlogs et le rap. Il possède 1,6 millions d'abonnés en mai 2019.</p>
+      <h1>Jeunesse et débuts</h1>
+      <p>Habitant dans sa jeunesse en banlieue parisienne à La Courneuve, il se lance dans le football américain et fort d'un très bon niveau, il joue en équipe de France juniors avant de rejoindre le Canada et l'université de Sherbrooke. C'est d'ailleurs là-bas qu'il commencera les vidéos YouTube. Mais une grave blessure en 2012 stoppe ses rêves de NFL et il rentre alors en France. Il se fait connaitre grâce à des vidéos sur les jeux de la série FIFA mais varie également son contenu régulièrement en proposant des gameplays sur d'autres jeux comme GTA V, NBA 2K ou UFC.</p>
+      <br>
+      <br>
+      <h1>Où habite-t-il?</h1>
+    </div>
+  </div>
+  <div class="map_wrapper">
+    <div id="map"></div> 
+  </div>
+<script src="js/index.js"></script>
+<footer>
+  <img src="img/icon/logo.png" id="icon-footer">
+  <div class="">
+    <h1 class="h1-footer">Plan du site</h1>
+    <ul class="footer-links">
+      <li><a href="index.html">Qui est-il?</a></li>
+      <li><a href="video-gallery.html">Streaming</a></li>
+      <li><a href="citations.html">Citations</a></li>
+      <li><a href="marque.html">Citations</a></li>
+      <li><a href="liens.html">Liens</a></li>
+      <li><a href="aboutus.html">Qui sommes-nous ?</a></li>
+    </ul>
+    </div>
+  <div class="">
+    <h1>Rayane - Amine ©</h1>
+    <ul class="contact">
+      <li><a href="https://www.facebook.com/rayanebrr"><img src=" img/icon/facebook-logo.png" alt=""></a></li>
+      <li><a href="https://www.instagram.com/nimaoff_/"><img src="img/icon/instagram-logo.png" alt=""></a></li>
+    </ul>
+  </div>
+</footer>
+<script>
+  var map, infoWindow;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 48.849327, lng: 2.337750},
+          zoom: 11,
+          disableDefaultUI: true
+        });
+        infoWindow = new google.maps.InfoWindow;
+
+        var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(48.932565, 2.398191),
+        map: map,
+        title: 'Il habite ici !'
+        });
+      }
+      
+  </script>
+   <script async defer
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZSiu19cMlmzUCrOjugA62cgymkCWZnvc&callback=initMap">
+   </script>
+</body>
+</html>
